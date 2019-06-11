@@ -1,4 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
 @import "bootstrap";
+
 
 .clear {
   clear: both;
@@ -45,4 +49,14 @@
 
 hr {
   clear:both;
+}
+
+h1 {
+    font-family: 'Questrial', sans-serif;
+    
+}
+
+h2 {
+    font-family: 'Questrial', sans-serif;
+   
 }
