@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
 
 @import "bootstrap";
 
@@ -29,9 +28,11 @@
 }
 
 .slogan {
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
-  padding-top: 26px;}
+  padding-top: 26px;
+}
+
 
   .links {
     padding-top: 26px;
@@ -41,6 +42,8 @@
     color: black;
     font-size: 25px;
     border-bottom: 1px solid #dfdfdf;
+    font-family: 'alegreya_sansregular';
+    font-weight: bold;
   }
 
  header {
@@ -52,11 +55,27 @@ hr {
 }
 
 h1 {
-    font-family: 'Questrial', sans-serif;
-    
+    font-family: 'alegreya_sansregular';
+    font-weight: bold;
+    font-size: 48px;
 }
 
 h2 {
-    font-family: 'Questrial', sans-serif;
-   
+    font-family: 'alegreya_sansregular';
+
+}
+
+.next-quote {
+   color:#DE1F2B;
+   font-family: 'alegreya_sansregular';
+   font-size:20px;
+
+
+}
+
+.footer-blurb {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  text-align: right;
+  fontsize: 10px;
 }
